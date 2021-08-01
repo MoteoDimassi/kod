@@ -32,7 +32,7 @@ namespace dropMeFile_2._0
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Привет мир!!");
                 });
             });
         }
